@@ -9,7 +9,7 @@
 </script>
 
 <template>
-  <nav class="flex justify-between items-center py-5">
+  <nav class="flex justify-between items-center py-5 px-[60px] fixed left-0 right-0 top-0">
     <h1 class="main-text">Miras Baidildin</h1>
     <div>
       <a :class="activePage === 1 ? 'active' : ''" @click="changeActivePage(1)">Home</a>
