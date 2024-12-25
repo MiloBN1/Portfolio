@@ -14,7 +14,7 @@
 </script>
 
 <template>
-  <div class="flex justify-center items-center h-full">
+  <div class="flex justify-center items-center h-full container-main">
     <div class="circle-wrapper mr-20">
       <div class="circle">
       </div>
@@ -79,5 +79,8 @@
   }
   .active-btn{
     border-color: #007CED;
+  }
+  .container-main{
+    height: calc(100vh - 88px - 66px)
   }
 </style>

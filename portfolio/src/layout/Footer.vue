@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer class="flex items-center justify-between footer fixed bottom-0 left-0 right-0">
+  <footer class="flex items-center justify-between footer fixed bottom-0 left-0 right-0 bg-[#222222]">
       <div class="flex">
       <a class="text cursor-pointer">Telegram</a>
       <a class="text cursor-pointer">LinkedIn</a>

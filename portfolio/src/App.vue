@@ -14,7 +14,5 @@ import Footer from "./layout/Footer.vue";
 </template>
 
 <style scoped>
-  .container-fluid{
-    height: calc(100vh - 88px - 66px);
-  }
+
 </style>
