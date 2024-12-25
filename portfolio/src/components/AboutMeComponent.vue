@@ -28,11 +28,10 @@
       <p class="text-about" >MiddleComm, 2 years <br/>
         FRONT-END ANGULAR
       </p>
-        <ul class="text-white list-disc ">
-          <li class="ml-5"> Микросервисы с помощью Express JS</li>
-          <li class="ml-5"> Разработка веб-приложении с использованием Angular 14</li>
-          <li class="ml-5"> Работал с CRUD-операциями, использовал Redis для кэширования и
-            базы данных PostgreSQL для управления данными</li>
+        <ul class="text-white list-disc">
+          <li class="ml-5"> Microservices using Express JS</li>
+          <li class="ml-5"> Developing web applications with Angular 14</li>
+          <li class="ml-5"> Worked with CRUD operations, used Redis for caching, and PostgreSQL for data management</li>
         </ul>
       </div>
       <div class="mt-5">
