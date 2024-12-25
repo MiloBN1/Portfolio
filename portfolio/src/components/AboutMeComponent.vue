@@ -2,9 +2,13 @@
   import {ref} from "vue";
 
   let activePage = ref(0)
+  const titles = ['About me', 'My XP']
+  let selectedTitle = ref(titles[0])
 
-  function changeActivePage(value){
-    activePage.value = value
+
+  function changeActivePage(value:number){
+    activePage.value = value;
+    selectedTitle.value = titles[value]
   }
 
 </script>
@@ -18,8 +22,19 @@
 
     <div class="info-block w-1/3">
       <p class="opacity-text">Fullstack Developer</p>
-      <h1>About me</h1>
-      <p class="text-about">Hello, my name is Miras Baidildin. I create web applications using Angular and Vue. I work with TypeScript, JavaScript, and Python and build backends with Django Rest Framework or Node.js frameworks like Nest.js and Express.js. My skills enable me to deliver full-stack solutions tailored to any project.</p>
+      <h1>{{ selectedTitle }}</h1>
+      <p class="text-about" v-if="activePage===0">Hello, my name is Miras Baidildin. I create web applications using Angular and Vue. I work with TypeScript, JavaScript, and Python and build backends with Django Rest Framework or Node.js frameworks like Nest.js and Express.js. My skills enable me to deliver full-stack solutions tailored to any project.</p>
+      <div v-if="activePage===1">
+      <p class="text-about" >MiddleComm, 2 years <br/>
+        FRONT-END ANGULAR
+      </p>
+        <ul class="text-white list-disc ">
+          <li class="ml-5"> Микросервисы с помощью Express JS</li>
+          <li class="ml-5"> Разработка веб-приложении с использованием Angular 14</li>
+          <li class="ml-5"> Работал с CRUD-операциями, использовал Redis для кэширования и
+            базы данных PostgreSQL для управления данными</li>
+        </ul>
+      </div>
       <div class="mt-5">
         <button class="mr-5" @click="changeActivePage(0)" :class="activePage===0?'active-btn':''">About me</button>
         <button @click="changeActivePage(1)" :class="activePage===1?'active-btn':''">My XP</button>
