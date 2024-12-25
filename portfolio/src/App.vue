@@ -4,15 +4,17 @@ import Footer from "./layout/Footer.vue";
 </script>
 
 <template>
-  <div class="min-h-[88px]">
+  <div class="h-[88px]">
     <Header></Header>
   </div>
-  <div>
+  <div class="container-fluid">
     <RouterView />
   </div>
   <Footer></Footer>
 </template>
 
 <style scoped>
-
+  .container-fluid{
+    height: calc(100vh - 88px - 66px);
+  }
 </style>

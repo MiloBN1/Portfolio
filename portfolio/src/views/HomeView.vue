@@ -1,9 +1,10 @@
 <script setup lang="ts">
 
+import AboutMeComponent from "../components/AboutMeComponent.vue";
 </script>
 
 <template>
-  <div>asdas</div>
+  <AboutMeComponent/>
 </template>
 
 <style scoped>

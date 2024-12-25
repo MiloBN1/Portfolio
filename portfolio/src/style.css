@@ -14,3 +14,8 @@ body{
   font-size: 32px;
   font-weight: bold;
 }
+
+.opacity-text{
+  color: #fff;
+  opacity: 0.5;
+}
