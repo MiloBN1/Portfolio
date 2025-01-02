@@ -81,6 +81,6 @@
     border-color: #007CED;
   }
   .container-main{
-    height: calc(100vh - 88px - 66px)
+    height: calc(100vh - 88px)
   }
 </style>
