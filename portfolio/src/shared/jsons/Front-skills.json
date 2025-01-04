@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "bi bi-laptop",
+    "title": "ANGULAR, VUE, REACT",
+    "description": "I am a skilled frontend developer with strong expertise in Angular, Vue, and React. My experience spans building dynamic and scalable web applications, utilizing the strengths of each framework to deliver efficient, user-centric solutions. Whether it’s managing complex state in React, leveraging Vue's flexibility, or implementing enterprise-level features with Angular, I adapt seamlessly to project requirements to create clean, maintainable, and high-performance code."
+  },
+  {
+    "id": 2,
+    "icon": "bi bi-pencil-fill",
+    "title": "UX/UI Design",
+    "description": "I have a solid foundation in UX/UI design and a practical approach to creating user-friendly interfaces. While I’m not a dedicated designer, I can confidently design layouts, improve user flows, and ensure a pleasant user experience. My focus is on functionality, clarity, and aligning design choices with user needs and project goals."
+  },
+  {
+    "id": 3,
+    "icon": "bi bi-braces",
+    "title": "TypeScript, JavaScript",
+    "description": "I have extensive expertise in TypeScript and JavaScript, enabling me to build robust, maintainable, and scalable web applications. My deep understanding of these languages allows me to implement complex logic, ensure type safety, and streamline development processes. Whether it's working on modern frameworks like React, Angular, or Vue or writing clean, efficient vanilla JavaScript, I bring precision and expertise to every project."
+  }
+]
