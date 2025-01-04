@@ -21,9 +21,9 @@
     </div>
 
     <div class="info-block w-1/3">
-      <p class="opacity-text">Fullstack Developer</p>
+      <p class="opacity-text">Frontend Developer</p>
       <h1>{{ selectedTitle }}</h1>
-      <p class="text-about" v-if="activePage===0">Hello, my name is Miras Baidildin. I create web applications using Angular and Vue. I work with TypeScript, JavaScript, and Python and build backends with Django Rest Framework or Node.js frameworks like Nest.js and Express.js. My skills enable me to deliver full-stack solutions tailored to any project.</p>
+      <p class="text-about" v-if="activePage===0">I specialize in creating web applications using Angular, React and Vue, leveraging my strong expertise in TypeScript and JavaScript. With a keen eye for detail and a passion for modern frontend development, I focus on crafting dynamic, responsive, and user-friendly interfaces.</p>
       <div v-if="activePage===1">
       <p class="text-about" >MiddleComm, 2 years <br/>
         FRONT-END ANGULAR

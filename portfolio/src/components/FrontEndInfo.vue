@@ -1,21 +1,21 @@
 <script setup lang="ts">
 import frontJson from "../shared/jsons/Front-skills.json"
 import ProgressBar from "./ui/ProgressBar.vue";
+import TitleBlock from "./ui/TitleBlock.vue";
+import MainLine from "./ui/MainLine.vue";
 
 
 </script>
 
 <template>
   <div >
-    <div class="bg-[#252525] px-[60px] border-2 border-[#333333] py-24 text-white main-text">
-      Front-end skills
-    </div>
-    <div class="flex px-[60px]">
+    <TitleBlock title="Frontend skills"/>
+    <div class="flex px-[60px] pb-16">
       <!--   Frameworks   -->
       <div class="w-1/2 mr-24">
         <div class="f-24 mt-16">
           Frontend knowledge
-          <div class="line"></div>
+          <MainLine/>
         </div>
         <div v-for="i in frontJson" :key="i.id" class="flex mt-10">
           <div class="mr-8 text-4xl text-[#007CED]">
@@ -52,20 +52,4 @@ import ProgressBar from "./ui/ProgressBar.vue";
   p{
     line-height: 30px;
   }
-  .line{
-    width: 100px;
-    height: 2px;
-    background-color: #353535;
-    position: relative;
-  }
-  .line:before{
-    content: " ";
-    height: 100%;
-    width: 35%;
-    background-color: #007CED;
-    position: absolute;
-    left: 0;
-  }
-
-
 </style>

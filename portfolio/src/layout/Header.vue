@@ -14,7 +14,6 @@
     <div>
       <a :class="activePage === 1 ? 'active' : ''" @click="changeActivePage(1)">Home</a>
       <a :class="activePage === 2 ? 'active' : ''" @click="changeActivePage(2)">Front-end skills</a>
-      <a :class="activePage === 3 ? 'active' : ''" @click="changeActivePage(3)">Back-end skills</a>
       <a :class="activePage === 4 ? 'active' : ''" @click="changeActivePage(4)">Projects</a>
       <a :class="activePage === 5 ? 'active' : ''" @click="changeActivePage(5)">Contacts</a>
     </div>
