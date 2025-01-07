@@ -8,7 +8,7 @@ import MainLine from "./ui/MainLine.vue";
 </script>
 
 <template>
-  <div >
+  <div>
     <TitleBlock title="Frontend skills"/>
     <div class="flex px-[60px] pb-16">
       <!--   Frameworks   -->

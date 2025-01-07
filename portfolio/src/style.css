@@ -10,6 +10,18 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+[id]:before {
+  content: "";
+  display: block;
+  height: 88px; /* Высота фиксированного header */
+  margin-top: -88px; /* Компенсирует высоту */
+  visibility: hidden;
+}
+
 .main-text{
   color: #fff;
   font-size: 32px;

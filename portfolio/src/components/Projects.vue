@@ -12,26 +12,28 @@ const images = [
 </script>
 
 <template>
-  <TitleBlock title="Projects"/>
+  <div>
+    <TitleBlock title="Projects"/>
 
-  <div class="px-[60px] py-16">
-    <div>
-      <h3 class="f-24">Vercel</h3>
-      <MainLine/>
-    </div>
-    <div class="mt-5">
-      <button class="opacity-text mr-10">Vue</button>
-      <button class="opacity-text mr-10">Angular</button>
-      <button class="opacity-text">React</button>
-    </div>
-    <div class="mt-5 flex">
-      <div
-          v-for="(image, index) in images"
-          :key="index"
-          class="w-1/3 images mr-5"
-          :style="{ backgroundImage: `url(${image})` }"
-      >
-        <div class="view-project"><button class="btn">View Project</button></div>
+    <div class="px-[60px] py-16">
+      <div>
+        <h3 class="f-24">Vercel</h3>
+        <MainLine/>
+      </div>
+      <div class="mt-5">
+        <button class="opacity-text mr-10">Vue</button>
+        <button class="opacity-text mr-10">Angular</button>
+        <button class="opacity-text">React</button>
+      </div>
+      <div class="mt-5 flex">
+        <div
+            v-for="(image, index) in images"
+            :key="index"
+            class="w-1/3 images mr-5"
+            :style="{ backgroundImage: `url(${image})` }"
+        >
+          <div class="view-project"><button class="btn">View Project</button></div>
+        </div>
       </div>
     </div>
   </div>

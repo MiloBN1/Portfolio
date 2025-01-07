@@ -6,8 +6,11 @@ import Projects from "../components/Projects.vue";
 </script>
 
 <template>
+  <div id="home"></div>
   <AboutMeComponent/>
+  <div id="skills"></div>
   <FrontEndInfo/>
+  <div id="projects"></div>
   <Projects/>
 </template>
 
