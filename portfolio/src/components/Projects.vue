@@ -52,6 +52,7 @@ const images = [
     background-color: #0009;
     display: none;
     justify-content: center;
+    border-radius: 10px;
     align-items: center;
   }
   .images:hover > .view-project{

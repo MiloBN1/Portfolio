@@ -5,8 +5,8 @@
 <template>
   <footer class="flex items-center justify-between footer bg-[#222222]">
       <div class="flex">
-      <a class="text cursor-pointer">Telegram</a>
-      <a class="text cursor-pointer">LinkedIn</a>
+      <a class="text" ><i class="bi bi-telegram mr-2"></i>Telegram: @MikoBN</a>
+      <a class="text cursor-pointer" target="_blank" href="https://www.linkedin.com/in/miras-baidildin-370529322/"><i class="bi bi-linkedin mr-2"></i>LinkedIn</a>
     </div>
     <div class="text">
       © 2025 Portfolio
