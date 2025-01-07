@@ -1,5 +1,6 @@
 <script setup lang="ts">
   let props = defineProps(['title'])
+  //for build start
 </script>
 
 <template>
